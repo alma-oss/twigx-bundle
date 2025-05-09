@@ -3,6 +3,7 @@
 <!-- There should always be "Unreleased" section at the beginning. -->
 ## Unreleased
 - [BC]: Change bundle scope from `lmc` to `almacareer`
+- [BC]: Change bundle namespace from `Lmc\TwigxBundle` to `Almacareer\TwigxBundle`
 
 ## 4.0.0 - 2025-01-09
 - [BC]: Drop support Symfony `4.4` and not LTS versions `6.x`

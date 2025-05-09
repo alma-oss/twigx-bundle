@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Lmc\TwigXBundle;
+namespace AlmaCareer\TwigXBundle;
 
-use Lmc\TwigXBundle\DependencyInjection\CompilerPass\OverrideServiceCompilerPass;
+use AlmaCareer\TwigXBundle\DependencyInjection\CompilerPass\OverrideServiceCompilerPass;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;

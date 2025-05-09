@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lmc\TwigXBundle\DependencyInjection\CompilerPass;
+namespace AlmaCareer\TwigXBundle\DependencyInjection\CompilerPass;
 
-use Lmc\TwigXBundle\Compiler\ComponentLexer;
-use Lmc\TwigXBundle\DependencyInjection\TwigXExtension;
+use AlmaCareer\TwigXBundle\Compiler\ComponentLexer;
+use AlmaCareer\TwigXBundle\DependencyInjection\TwigXExtension;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;

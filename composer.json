@@ -11,12 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Lmc\\TwigXBundle\\": "src/"
+      "AlmaCareer\\TwigXBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Lmc\\TwigXBundle\\": "tests/"
+      "AlmaCareer\\TwigXBundle\\": "tests/"
     }
   },
   "require": {
