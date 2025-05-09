@@ -1,6 +1,6 @@
 TwigX Bundle
 =================
-[![Latest Stable Version](https://img.shields.io/packagist/v/lmc/twigx-bundle.svg)](https://packagist.org/packages/lmc/twigx-bundle)
+[![Latest Stable Version](https://img.shields.io/packagist/v/almacareer/twigx-bundle.svg)](https://packagist.org/packages/almacareer/twigx-bundle)
 [![Coverage Status](https://coveralls.io/repos/github/lmc-eu/twigx-bundle/badge.svg?branch=main)](https://coveralls.io/github/lmc-eu/twigx-bundle?branch=main)
 
 Symfony bundle extending Twig template engine with [JSX]-like markup.
@@ -23,7 +23,7 @@ Download using *composer*
  Install package
 
 ```bash
-composer require lmc/twigx-bundle
+composer require almacareer/twigx-bundle
 ```
 
 ### Step 2
@@ -35,7 +35,7 @@ Add `TwigXBundle` into bundles (under `all` bundles). If you use Symfony flex, i
 ```php
     return [
         ...,
-        Lmc\TwigXBundle\TwigXBundle::class => ['all' => true],
+        AlmaCareer\TwigXBundle\TwigXBundle::class => ['all' => true],
     ];
 ```
 

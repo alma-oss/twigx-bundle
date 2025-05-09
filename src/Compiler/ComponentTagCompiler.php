@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lmc\TwigXBundle\Compiler;
+namespace AlmaCareer\TwigXBundle\Compiler;
 
 /**
  * Transforms <Tags /> to twig embed tags

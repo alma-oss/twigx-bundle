@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lmc\TwigXBundle\DependencyInjection\CompilerPass;
+namespace AlmaCareer\TwigXBundle\DependencyInjection\CompilerPass;
 
-use Lmc\TwigXBundle\DependencyInjection\TwigXExtension;
-use Lmc\TwigXBundle\Helper\DefinitionHelper;
+use AlmaCareer\TwigXBundle\DependencyInjection\TwigXExtension;
+use AlmaCareer\TwigXBundle\Helper\DefinitionHelper;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
