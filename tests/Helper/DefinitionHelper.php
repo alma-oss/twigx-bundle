@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lmc\TwigXBundle\Helper;
+namespace AlmaCareer\TwigXBundle\Helper;
 
 use Symfony\Component\DependencyInjection\Definition;
 
