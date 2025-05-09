@@ -35,7 +35,7 @@ Add `TwigXBundle` into bundles (under `all` bundles). If you use Symfony flex, i
 ```php
     return [
         ...,
-        Lmc\TwigXBundle\TwigXBundle::class => ['all' => true],
+        AlmaCareer\TwigXBundle\TwigXBundle::class => ['all' => true],
     ];
 ```
 
