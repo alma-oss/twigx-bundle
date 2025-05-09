@@ -1,12 +1,12 @@
 {
-  "name": "lmc/twigx-bundle",
+  "name": "almacareer/twigx-bundle",
   "type": "symfony-bundle",
   "description": "This is Symfony bundle which extends the twig implementation by an JSX like syntax.",
   "license": "MIT",
   "repositories": [],
   "authors": [
     {
-      "name": "LMC, s.r.o."
+      "name": "Alma Career, s.r.o."
     }
   ],
   "autoload": {
