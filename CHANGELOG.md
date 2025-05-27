@@ -5,7 +5,7 @@
 
 ## 5.0.0 - 2025-05-27
 - [BC]: Change bundle scope from `lmc` to `almacareer`
-- [BC]: Change bundle namespace from `Lmc\TwigXBundle` to `AlmaCareer\TwigxBundle`
+- [BC]: Change bundle namespace from `Lmc\TwigXBundle` to `AlmaCareer\TwigXBundle`
 
 ## 4.0.0 - 2025-01-09
 - [BC]: Drop support Symfony `4.4` and not LTS versions `6.x`
