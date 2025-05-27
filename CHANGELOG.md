@@ -2,6 +2,8 @@
 
 <!-- There should always be "Unreleased" section at the beginning. -->
 ## Unreleased
+
+## 5.0.0 - 2025-05-27
 - [BC]: Change bundle scope from `lmc` to `almacareer`
 - [BC]: Change bundle namespace from `Lmc\TwigXBundle` to `AlmaCareer\TwigxBundle`
 
