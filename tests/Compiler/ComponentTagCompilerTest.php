@@ -141,4 +141,17 @@ class ComponentTagCompilerTest extends TestCase
             ],
         ];
     }
+
+    public function testShouldCompileAdvancedStructure(): void
+    {
+        $compiler = new ComponentTagCompiler('<Breadcrumbs
+            items={{breadcrumbs}}
+            goBackTitle="{{ breadcrumbs[0].title }}"
+            data-job-description-breadcrumbs
+            data-test="jd-breadcrumbs"
+            UNSAFE_className="mt-900 mb-700 mb-tablet-900 d-print-none"
+        />', 'alias');
+
+        $this->assertSame('{% embed "@alias/breadcrumbs.twig" with { props: {\'items\': breadcrumbs,\'goBackTitle\': breadcrumbs[0].title,\'data-job-description-breadcrumbs\': true,\'data-test\': "jd-breadcrumbs",\'UNSAFE_className\': "mt-900 mb-700 mb-tablet-900 d-print-none"} } %}{% endembed %}', $compiler->compile());
+    }
 }
