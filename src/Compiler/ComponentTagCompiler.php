@@ -206,6 +206,8 @@ class ComponentTagCompiler
                         |                # or
                         \{[^\{]+\}       # Capture all that is between {...} but not `{`
                         |                # or
+                        \{\{[^\}]+\}\}   # Capture all that is between {{...}} but not `{`
+                        |                # or
                         [^>]+            # Capture any character but not `>`
                     )
                 )

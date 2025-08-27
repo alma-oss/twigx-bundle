@@ -2,6 +2,7 @@
 
 <!-- There should always be "Unreleased" section at the beginning. -->
 ## Unreleased
+- Fix: Capture attributes of props in double parenthesis as in Twig like syntax
 
 ## 3.3.0 - 2024-06-12
 - Feat: Normalize template name using regex to allow capitalized prefixes
