@@ -1,4 +1,8 @@
 # Code owners for almacareer/twigx-bundle
 # https://help.github.com/en/articles/about-code-owners
 
-* radek.hrebecek@almacareer.com
+* @alma-oss/twig-ui
+
+# Package owners
+
+* radek.hrebecek@almacareer.com lubomir.mihalik@almamedia.com
