@@ -2,6 +2,8 @@
 
 <!-- There should always be "Unreleased" section at the beginning. -->
 ## Unreleased
+
+## 5.0.1 - 2025-09-05
 - Deps: Update shivammathur/setup-php digest to ec406be
 - Deps: Update actions/checkout action to v5
 - Fix: Capture attributes of props in double parenthesis as in Twig like syntax
