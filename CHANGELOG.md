@@ -2,6 +2,15 @@
 
 <!-- There should always be "Unreleased" section at the beginning. -->
 ## Unreleased
+- Deps: Update shivammathur/setup-php digest to ec406be
+- Deps: Update actions/checkout action to v5
+- Fix: Capture attributes of props in double parenthesis as in Twig like syntax
+- Chore: Introduce team owner
+- Chore: Add Lubomir Mihalik to codeowners
+- Chore: Change codeowner from Tomas Janicek to Radek Hrebecek
+- Deps: Update dependency doctrine/cache to v2
+- Deps: Update dependency phpunit/phpunit to v12
+- Docs: Fix changelog typo
 
 ## 5.0.0 - 2025-05-27
 - [BC]: Change bundle scope from `lmc` to `almacareer`
