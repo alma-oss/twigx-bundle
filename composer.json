@@ -33,7 +33,7 @@
     "mockery/mockery": "^1.5",
     "doctrine/cache": "^2.0",
     "lmc/coding-standard": "^4.1",
-    "symfony/yaml": "^5.4 || ^6.4 || ^7.2",
+    "symfony/yaml": "^5.4 || ^6.4 || ^7.2 || ^8.0",
     "phpstan/phpstan": "^2",
     "phpstan/phpstan-mockery": "^2.0",
     "phpstan/extension-installer": "^1.4",
