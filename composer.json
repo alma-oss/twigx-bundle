@@ -24,7 +24,7 @@
     "symfony/config": " ^5.4 || ^6.4 || ^7.2",
     "symfony/dependency-injection": "^5.4 || ^6.4 || ^7.2",
     "symfony/http-foundation": "^5.4 || ^6.4 || ^7.2",
-    "symfony/http-kernel": "^5.4 || ^6.4 || ^7.2",
+    "symfony/http-kernel": "^5.4 || ^6.4 || ^7.2 || ^8.0",
     "twig/twig": "^3.0.0",
     "ext-simplexml": "*"
   },
