@@ -20,7 +20,7 @@ jobs:
         name: Unit tests - PHP ${{ matrix.php-version }} ${{ matrix.dependencies }}
 
         steps:
-            - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+            - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
 
             - name: Setup PHP
               uses: shivammathur/setup-php@ec406be512d7077f68eed36e63f4d91bc006edc4 # v2
@@ -60,7 +60,7 @@ jobs:
         name: "Code style and static analysis"
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+            - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
 
             - name: Setup PHP
               uses: shivammathur/setup-php@ec406be512d7077f68eed36e63f4d91bc006edc4 # v2
